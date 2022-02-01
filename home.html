@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie website</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .flw-item {
+            background-color: rgb(8, 7, 7);
+            width: 255px;
+            display: flex; 
+            box-sizing: border-box;
+            margin:10px 15px;
+            border: 10px;
+            border-color: green;
+            border-radius: 10px;
+        }
+
+        .film-detail {
+            font-weight: bold;
+            background-color: rgb(24, 18, 18);
+            border-radius: 10px;
+            height: 80px;
+            width: 250px;
+            border-style: dotted;
+            border-color: red;
+            text-decoration: none;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(146, 156, 161);
+        }
+
+        .btn {
+            color: rgb(4, 4, 5);
+            background-color: rgb(97, 78, 133);
+            cursor: pointer;
+            align-self: center;
+            border: 10px;
+            border-color: rgb(228, 24, 24);
+            border-radius: 10px;
+        }
+
+        .watch-now {
+            /* margin: 10px 50px; */
+            text-align: center;
+            border-color: red;
+        }
+
+        .watchbutton:link {
+            text-decoration: none;
+        }
+
+        .watchbutton {
+            color: red;
+            margin: 8px 12px;
+        }
+
+        /* h1 {
+            color: red;
+            width: 1000px;
+            height: 38px;
+            /* background-color: red; 
+            position: relative;
+            -webkit-animation: linear infinite alternate;
+            animation-name: example;
+            animation-duration: 60s;
+            animation-iteration-count: 10;
+            animation-direction: left;
+        } */
+
+        /* @-webkit-keyframes example {
+            0% {
+                color: red; */
+        /* background-color: red; */
+        /* left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                color: blue; */
+        /* background-color: blue; */
+        /* left: 950px;
+                top: 0px;
+            }
+        } */
+        h1 {
+            font-weight: 700;
+            text-align: center;
+            font-size: 40px;
+            font-family: Hack, sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, rgb(38, 3, 161), rgb(238, 8, 8), rgb(24, 2, 146));
+            letter-spacing: 5px;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            animation: shine 5s linear infinite;
+            position: relative;
+        }
+
+        @keyframes shine {
+            0% {
+                background-position-x: -500%;
+            }
+
+            100% {
+                background-position-x: 500%;
+            }
+        }
+        .box{
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 0px 21px;
+            border: 10px;
+            border-color: green;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+
+
+        <h1>This is a free movie streaming website</h1>
+        <div class="flw-item">
+            <div class="box">
+
+                <div class="film-poster">
+                    <img src="pics/spider1.png" alt="spider-man-no-way-home-hd">
+                    <a href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                        class="film-poster-ahref" title="Spider-Man: No Way Home"></a>
+                </div>
+                <div class="film-detail">
+                    <h3 class="film-name"><a
+                            href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                            title="Spider-Man: No Way Home" class="watchbutton">Spider-Man: No Way Home</a>
+                    </h3>
+
+                    <div class="watch-now">
+                        <a href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                            class="watchbutton"><button class="btn">watch now</button></a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="flw-item">  -->
+            <div class="box">
+
+                <div class="film-poster">
+                    <img src="pics/matrix1.jpg" alt="The Matrix Resurrections">
+                    <a href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                        class="film-poster-ahref" title="The Matrix Resurrections"></a>
+                </div>
+                <div class="film-detail">
+                    <h3 class="film-name"><a
+                            href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                            title="The Matrix Resurrections" class="watchbutton">The Matrix Resurrections</a>
+                    </h3>
+
+                    <div class="watch-now">
+                        <a href="https://sflix.to/watch-movie/free-spider-man-no-way-home-hd-71326.5601538"
+                            class="watchbutton"><button class="btn">watch now</button></a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- </div>  -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

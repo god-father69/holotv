@@ -1,0 +1,27 @@
+.rdb input{
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.rdb{
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(245, 129, 129);
+  
+}
+.rdb:hover input ~ .rdb {
+    background-color: rgb(90, 9, 9);
+  }
+  .rdb input:checked ~ .rdb {
+    background-color: #2196F3;
+  }
+  .rdb:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
